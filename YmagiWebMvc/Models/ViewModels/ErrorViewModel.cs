@@ -1,6 +1,7 @@
 using System;
 
-namespace YmagiWebMvc.Models
+namespace YmagiWebMvc.Models.ViewModels
+
 {
     public class ErrorViewModel
     {

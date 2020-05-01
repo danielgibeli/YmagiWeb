@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using YmagiWebMvc.Models;
+using YmagiWebMvc.Models.ViewModels;
 
 namespace YmagiWebMvc.Controllers
 {
@@ -18,6 +18,7 @@ namespace YmagiWebMvc.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
+            ViewData["dev"] = "Daniel Gibeli";
 
             return View();
         }
